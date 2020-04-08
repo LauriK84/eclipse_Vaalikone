@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\Lauri\eclipse_Vaalikone\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3366501974.index
+3107527875.index
+3298415250.index
+1178986674.index
+3131561110.index
+765132758.index
