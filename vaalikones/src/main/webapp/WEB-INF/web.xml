@@ -18,6 +18,7 @@
     <url-pattern>/Vaalikone</url-pattern>
   </servlet-mapping>
   
+  
     <servlet>
     <servlet-name>Lisaa</servlet-name>
     <servlet-class>vaalikone.Lisaa</servlet-class>
@@ -27,7 +28,7 @@
     <servlet-name>Lisaa</servlet-name>
     <url-pattern>/Lisaa</url-pattern>
   </servlet-mapping>
-  
+
   <session-config>
     <session-timeout>30</session-timeout>
   </session-config>
