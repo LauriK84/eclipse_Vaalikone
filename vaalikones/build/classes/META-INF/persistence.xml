@@ -10,8 +10,8 @@
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/vaalikone"/>
 		    <property name="javax.persistence.jdbc.user" value="root" />
-		    <property name="javax.persistence.jdbc.password" value="Qwerty1!" />
-		   <!--  <property name="eclipselink.ddl-generation" value="create-tables" /> -->
+		    <property name="javax.persistence.jdbc.password" value="root" />
+		    <!-- <property name="eclipselink.ddl-generation" value="create-tables" /> -->
 		</properties>
 			
 	</persistence-unit>
