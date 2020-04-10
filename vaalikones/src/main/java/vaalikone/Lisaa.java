@@ -81,8 +81,14 @@ public class Lisaa extends HttpServlet {
 		ehdokas.setSukunimi(sukunimi);
 		String puolue = request.getParameter("puolue");
 		ehdokas.setPuolue(puolue);
-		String ika = request.getParameter("ika");
-		ehdokas.setIka(Integer.parseInt(ika));
+		
+		try {
+			String ika = request.getParameter("ika");
+			ehdokas.setIka(Integer.parseInt(ika));
+		} catch(NumberFormatException ex) {
+			System.out.println(""); //keksi handlaus...?
+		}
+		
 		String kotipaikkakunta = request.getParameter("kotipaikkakunta");
 		ehdokas.setKotipaikkakunta(kotipaikkakunta);
 		String ammatti = request.getParameter("ammatti");
