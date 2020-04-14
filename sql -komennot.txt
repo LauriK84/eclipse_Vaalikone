@@ -1,0 +1,13 @@
+ADMIN TAULUKON LUONTI:
+create table admins
+(
+U_Id int(10) unsigned NOT NULL AUTO_INCREMENT,
+email varchar(255) DEFAULT NULL,
+password varchar(255) DEFAULT NULL,
+primary key(U_Id),
+UNIQUE KEY `U_Id` (`U_Id`)
+);
+
+ADMINIEN LISÄÄMINEN OHJELMAN ULKOPUOLELTA. HUOM! SALASANA EI TALLENNU MD5 MUODOSSA:
+
+INSERT INTO admins(email, password) VALUES ('S.posti@sposti.fi', 'salasana');
