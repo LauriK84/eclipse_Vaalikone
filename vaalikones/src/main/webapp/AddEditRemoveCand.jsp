@@ -23,7 +23,7 @@ and open the template in the editor.
         </div>
         
         <div id="buttonit">
-            <form action="Lisaa"> <!-- ohjaa Lisää ehdokas -sivulle -->
+            <form action="Add.jsp"> <!-- ohjaa Lisää ehdokas -sivulle -->
             <input id="submitnappi" type="submit" value="Lisää ehdokas" name="btnLisaa" />                                                              
             </form>
             <form action=" "> <!-- ohjaa Muokkaa ehdokasta -sivulle -->
