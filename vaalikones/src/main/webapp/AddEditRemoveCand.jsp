@@ -26,7 +26,7 @@ and open the template in the editor.
             <form action="Add.jsp"> <!-- ohjaa Lisää ehdokas -sivulle -->
             <input id="submitnappi" type="submit" value="Lisää ehdokas" name="btnLisaa" />                                                              
             </form>
-            <form action=" "> <!-- ohjaa Muokkaa ehdokasta -sivulle -->
+            <form action="Edit.jsp"> <!-- ohjaa Muokkaa ehdokasta -sivulle -->
             <input id="submitnappi" type="submit" value="Muokkaa ehdokasta" name="btnMuokkaa" />      
             </form>
             <form action=" "> <!-- ohjaa Poista ehdokas -sivulle -->
