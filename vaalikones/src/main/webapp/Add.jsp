@@ -20,7 +20,7 @@
                 <br>     
         </div>
 
-<form method="POST"action="/Lisaa">
+<form method="POST"action="/Lisaa" id="lisays">
 	<label for="etunimi">Ehdokkaan etunimi: </label>
 	<input type="text" id="etunimi" name="etunimi" required><br><br>
 	<label for="sukunimi">Ehdokkaan sukunimi: </label>
@@ -38,7 +38,7 @@
 	<label for="mitaAsioitaHaluatEdistaa">Mitä asioita haluan edistää: </label>
 	<input type="text" id="mitaAsioitaHaluatEdistaa" name="mitaAsioitaHaluatEdistaa" required><br><br>
 	
-	<input type="submit" value="Lisää ehdokas">
+	<input id="submitnappi" type="submit" value="Lisää ehdokas">
 </form>
 
 <%
