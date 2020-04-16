@@ -18,7 +18,7 @@
                 <br>     
         </div>
         <div id="buttonit">
-            <form action="AddEditRemove.jsp"> <!-- ohjaa ehdokkaiden muokkasasetuksiin -->
+            <form action="AddEditRemoveCand.jsp"> <!-- ohjaa ehdokkaiden muokkasasetuksiin -->
             <input id="submitnappi" type="submit" value="Ehdokkaiden asetukset" name="btnLisaa" />                                                              
             </form>
             <form action="Register.jsp">  <!-- ohjaa rekisteröinti sivulle -->
