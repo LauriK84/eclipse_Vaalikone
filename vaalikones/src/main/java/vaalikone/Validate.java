@@ -1,9 +1,14 @@
+package vaalikone;
+
 import java.sql.*;
 
 public class Validate {
+	
     public static boolean checkUser(String email, String pass) {
         boolean st = false;
         try {
+        		
+        	
         	
             //Tehd‰‰n yhteys databaseen
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/vaalikone", "root", "Qwerty1!");

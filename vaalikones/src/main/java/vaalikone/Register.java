@@ -1,3 +1,5 @@
+package vaalikone;
+
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -25,7 +27,9 @@ public class Register extends HttpServlet {
             ps.setString(2, (MD5.getMd5(pass)));
             int i = ps.executeUpdate();
             if (i > 0) {
-                out.println("You are sucessfully registered");
+                out.println("Uusi admin käyttäjä luotu!");
+                RequestDispatcher rs = request.getRequestDispatcher("AdminPage.jsp");
+                rs.forward(request, response);
             }
 
         } catch (Exception se) {
